@@ -10,5 +10,5 @@ export default function App() {
       .then((d) => setHealth(d.status))
       .catch(() => setHealth('down'));
   }, []);
-  return <h1>Backend status: {health}</h1>;
+  return <h1>Deploy demo - Backend status: {health}</h1>;
 }
